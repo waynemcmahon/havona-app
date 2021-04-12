@@ -8,7 +8,7 @@ import { SideMenu } from './components/SideMenu'
 import { SideBarMenu } from './components/SideBarMenu'
 import data from "./data";
 import profileImageBlur from './images/profile/profilebg_blur.png';
-import DeckStackCards from './components/BU/DeckStackCards';
+/* import DeckStackCards from './components/BU/DeckStackCards'; */
 
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
 
   return (
     <animated.div className="App" >
-    <DeckStackCards/>
+  {/*   <DeckStackCards/> */}
       <animated.div>
         <Profile
           cardDeck={cardDeck}
