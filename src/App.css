@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 72px !important;
+  text-align: center;
+}
+
+html,
+body {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  overflow: hidden;
+}
